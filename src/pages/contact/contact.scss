@@ -1,0 +1,41 @@
+page-contact {
+    img {
+        display: block;
+        width: 50%;
+        border-radius: 100%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .home {
+        background: linear-gradient(to top, #006E28 0%, #009637 100%);
+    }
+    $SIDEMENU_TOP: #ee4649;
+    $SIDEMENU_BOTTOM: #f6a72a;
+    $SIDEMENU_TRANSPARENCY: rgba(255, 255, 255, 0.4);
+    .toolbar-background-md {
+        background: -webkit-gradient(left top, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: -o-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: -moz-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: linear-gradient(to bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background-repeat: repeat-x;
+    }
+    .toolbar-background-ios {
+        background: -webkit-gradient(left top, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: -o-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: -moz-linear-gradient(bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background: linear-gradient(to bottom right, $SIDEMENU_TOP, $SIDEMENU_BOTTOM);
+        background-repeat: repeat-x;
+    }
+    // [ion-button] {
+    //     background: linear-gradient(to right, #006E28 0%, #009637 100%);
+    //     height: 3.8em;
+    // }
+    //     // .button-ios.activated {
+    //     //     opacity: 10;
+    //     // }
+    //     // [ion-button] :active {
+    //     //     // background: linear-gradient(to right, #007F39 0%, #00A748 100%);
+    //     //     background: linear-gradient(to right, #006E28 0%, #009637 100%);
+    //     // }
+}
